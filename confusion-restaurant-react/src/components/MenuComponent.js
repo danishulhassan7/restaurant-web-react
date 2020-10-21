@@ -16,7 +16,7 @@ class Menu extends Component {
                     <Card>
                         <CardImg width="100%" src={dish.image} alt={dish.name} />
                         <CardImgOverlay> 
-                            <CardTitle>{dish.name}</CardTitle>        
+                            <CardTitle><h2>{dish.name}<h2/></CardTitle>        
                          </CardImgOverlay>
                     </Card>
                 </div>
